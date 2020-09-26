@@ -1,0 +1,33 @@
+/* *                  * */
+/* *    made by       * */
+/* *     Tazio        * */
+/* *                  * */
+
+
+/* * Phone * */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #about {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+
+    #skill {
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    #skill .card {
+        flex: none;
+        /* width: 100vw; */
+        max-width: 100%;
+    }
+
+    #skill .card:last-of-type {
+        margin-right: 10px;
+    }
+
+    #socialmedia {
+        width: 50%;
+    }
+}

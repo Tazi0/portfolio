@@ -7,6 +7,10 @@
 /* * Phone * */
 @media (min-width: 320px) and (max-width: 480px) {
 
+    html, body {
+        overflow-x: hidden;
+    }
+
     #about {
         width: calc(100% - 40px);
         margin-left: 20px;
@@ -28,6 +32,14 @@
     }
 
     #socialmedia {
-        width: 50%;
+        width: calc(40% - 15px);
+    }
+
+    #socialmedia a {
+        margin-bottom: 10px;
+    }
+
+    #socialmedia a:nth-child(2n) {
+        margin-right: 0;
     }
 }

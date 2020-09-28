@@ -4,14 +4,11 @@
 // *                  * //
 
 var title = document.getElementById("title")
-var sub = document.getElementById("sub")
 
 var click = 0
 var reverseMove = false
 
 new CircleType(title)
-new CircleType(sub)
-
 
 confetti.speed = 0.2
 
@@ -29,12 +26,10 @@ function reverse() {
         reverseMove = true
 
         title.style.animationDirection = "reverse"
-        sub.style.animationDirection = "normal"
     } else {
         reverseMove = false
 
         title.style.animationDirection = "normal"
-        sub.style.animationDirection = "reverse"
     }
 
     return true

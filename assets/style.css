@@ -58,17 +58,6 @@ header h1 {
     animation: linear 30s rotate infinite;
 }
 
-header h3 {
-    text-transform: lowercase;
-    font-size: 30px;
-    font-weight: normal;
-    position: absolute;
-    left: 50%;
-    top: calc(42% + 12px);
-    animation: linear 15s rotate reverse infinite;
-
-}
-
 
 /* * About * */
 main {
